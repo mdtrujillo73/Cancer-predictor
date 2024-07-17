@@ -172,7 +172,6 @@ def main():
        st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
     input_data=add_sidebar()
-    ## st.write(input_data)
      
     with st.container():
         st.title("Breast Cancer predictor")
